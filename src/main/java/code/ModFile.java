@@ -41,7 +41,7 @@ public class ModFile implements
         EditCharactersSubscriber,
         AddAudioSubscriber {
 
-    public static final String modID = "todomod"; //TODO: Change this.
+    public static final String modID = "Socerer"; //TODO: Change this.
 
     public static String makeID(String idText) {
         return modID + ":" + idText;
@@ -80,7 +80,7 @@ public class ModFile implements
     public ModFile() {
         BaseMod.subscribe(this);
 
-        BaseMod.addColor(CharacterFile.Enums.TODO_COLOR, characterColor, characterColor, characterColor,
+        BaseMod.addColor(CharacterFile.Enums.RED, characterColor, characterColor, characterColor,
                 characterColor, characterColor, characterColor, characterColor,
                 ATTACK_S_ART, SKILL_S_ART, POWER_S_ART, CARD_ENERGY_S,
                 ATTACK_L_ART, SKILL_L_ART, POWER_L_ART,
@@ -118,8 +118,8 @@ public class ModFile implements
 
     @Override
     public void receiveEditCharacters() {
-        BaseMod.addCharacter(new CharacterFile(CharacterFile.characterStrings.NAMES[1], CharacterFile.Enums.THE_TODO),
-            CHARSELECT_BUTTON, CHARSELECT_PORTRAIT, CharacterFile.Enums.THE_TODO);
+        BaseMod.addCharacter(new CharacterFile(CharacterFile.characterStrings.NAMES[1], CharacterFile.Enums.THE_SOCERER),
+            CHARSELECT_BUTTON, CHARSELECT_PORTRAIT, CharacterFile.Enums.THE_SOCERER);
         
         new AutoAdd(modID)
             .packageFilter(AbstractEasyPotion.class)

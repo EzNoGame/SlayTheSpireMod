@@ -1,10 +1,10 @@
 [
   {
-    "PROPER_NAME": "TODO",
+    "PROPER_NAME": "BloodThirst",
     "NAMES": [
-      "todo",
-      "todos"
+      "BloodThirst",
+      "bloodThirst"
     ],
-    "DESCRIPTION": "TODO: Make your own epic keywords"
+    "DESCRIPTION": "when dealing unblock damage, heal the same amount"
   }
 ]

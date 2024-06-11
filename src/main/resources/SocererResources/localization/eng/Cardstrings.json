@@ -7,9 +7,9 @@
     "NAME": "Defend",
     "DESCRIPTION": "Gain !B! Block."
   },
-  "${ModID}:ExampleTwoAmountPowerCard": {
-    "NAME": "Two Amount Power",
-    "DESCRIPTION": "At the start of your turn, gain !M! Strength and !${ModID}:m2! Dexterity."
+  "${ModID}:LifeDrinker": {
+    "NAME": "Life Drinker",
+    "DESCRIPTION": "BloodThirst Deal !D! damage"
   },
   "${ModID}:InlinePowerDemo": {
     "NAME": "Inline Power",
